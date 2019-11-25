@@ -1,0 +1,109 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+nav
+{
+    background-color: rgb(0, 132, 255);
+    
+}
+#item{
+    color: white;;
+}
+nav a:hover
+{
+    font-size: 21px;
+    
+    border-bottom: 1px solid white;
+}
+nav a
+{
+    transition: all 0.3s ease-in-out;
+}
+.navbar-brand
+{
+    font-style: bold;
+    letter-spacing: 3px;
+    padding: 1%; 
+}
+.navbar-nav
+{
+    justify-content: space-between;
+    flex-basis: 100%;
+    font-size: 16px;
+}
+
+.posalji
+{
+    align-items: center;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    margin-top: 6em;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 3em;
+    margin-bottom: 6em;
+}
+.posalji p
+{
+    text-align: center;
+    margin-top: 1em;
+}
+.posalji input
+{
+    text-align: center;
+}
+
+#themeSwitcher{       
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    width:100px;
+    height:30px;
+    z-index:1;
+    border:1px solid #000;
+    border-radius:4px;
+    cursor:pointer;
+    overflow:hidden;
+   }
+   
+   #themeSwitcher.active{
+    border-color:#fff;
+   }
+   
+   #themeSwitcher li{
+    list-style:none;
+    width:100%;
+    height:60px;
+    text-align:center;
+    text-transform:uppercase;
+    transition:0.5s;
+   }
+   
+   #themeSwitcher.active li{
+    transform:translateY(-30px);
+   }
+   
+   .themeSwitcherc li span{
+    display:block;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    color:#262626;
+    background:#fff;
+   }
+   
+   .themeSwitcherc li span:nth-child(1){
+    background:#262626;
+    color:#fff;
+   }
+
+.footer1{
+    background-color:rgb(0, 131, 253);
+    font-size: 15px;
+    text-align: center;
+}
+
